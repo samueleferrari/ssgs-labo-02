@@ -46,3 +46,9 @@ For a more detailed report you can open in your browser the index.html file loca
 
 ## CI 🔁
 We have set up a continuous integration (CI) pipeline using GitHub Actions, which automatically executes tests on every push and pull request and load the coverage report as an artifact. 
+
+There's just a job called test that perfom the following steps:
+- Set up Node.js (version 22) including cache for better performance
+- Installs dependencies using npm ci
+- Runs tests with jest using npm test
+- Uploads the coverage report as an artifact

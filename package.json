@@ -1,12 +1,31 @@
 {
-  "name": "labo-string",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "labo-string",
+    "version": "1.0.0",
+    "description": "A very simple string calculator",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --coverage --verbose",
+        "start": "node ./index.js"
+    },
+    "keywords": ["calculator", "string", "ssgs", "operation", "nodejs"],
+    "author": "Samuele Ferrari <samueleferrari12@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "n": "^10.1.0",
+        "stable": "^0.1.8"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/samueleferrari/ssgs-labo-02.git"
+    },
+    "bugs": {
+        "url": "https://github.com/samueleferrari/ssgs-labo-02/issues"
+    },
+    "homepage": "https://github.com/samueleferrari/ssgs-labo-02#readme",
+    "engines": {
+        "node": ">=22.15.1"
+    }
 }

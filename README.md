@@ -21,10 +21,24 @@ Buona analisi e buon lavoro!
 * Troncamento di una stringa a una lunghezza massima specificata.
 * Conteggio delle occorrenze di ciascun carattere in una stringa.
 
-## Installazione e Avvio
+## Installation ⚙️
+This software works with [node.js](https://nodejs.org) **v22.15.1** or higher so make sure to have it installed using 
 
-*(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test).*
+    node -v 
 
----
+1. First clone this repo to your machine: 
+    
+        git clone https://github.com/samueleferrari/ssgs-labo-02.git
 
-*Suggerimento: Presta particolare attenzione ai requisiti dell'Esercizio 1 del laboratorio per completare e correggere questo README e gli altri file di configurazione.*
+2. Then navigate to the project directory:
+    
+        cd ssgs-labo-02
+
+3. Finally install the dependencies:
+    
+        npm install
+
+## Execution ▶️
+You can start the application with (*you can run it from any directories inside ssgs-calc*):
+
+    npm start 
